@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: rgb(233, 233, 232);
+    box-shadow: 0 5px 15px rgb(232, 232, 232);
+}
+
+#navbar {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+#navbar li {
+    padding: 20px;
+    list-style: none;
+}
+
+#navbar a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+#navbar a:hover {
+    color: #005bdb;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#form{
+    padding: 30px 30px 30px 30px;
+    border-radius: 20px;
+    border: 30px;
+    align-self: center;
+    max-width: 800px;
+    padding:2rem;
+    margin:0 auto;
+    margin-top:50px;
+    background-color: #c4c4c4;
+}
+
+input{
+    border-radius: 5px;
+}
+
+.button{
+   cursor: pointer;
+   background: var(--green);
+   color:var(rgb(158, 158, 232));
+   text-align: center;
+}
+
+tr:nth-child(even) {background-color: #c4c4c4;}
+table{
+    border-collapse: collapse;
+}
+td{
+    padding:20px 20px 20px 20px;
+    text-align: center;
+}
+.actions{
+    display:flex;
+    margin-left:100px;
+}
+button{
+    margin:10px 10px 10px 10px;
+}
+
+/* Footer styles */
+.footer {
+    background-color: rgb(233, 233, 232);
+    color: #000000;
+    padding: 40px 250px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.logo-section img {
+    width: 150px;
+    padding-right: 100px;
+}
+
+.footer-links {
+    flex: 1;
+}
+
+.footer-links h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-links a:hover {
+    color: #005bdb;
+}
+
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.footer-col {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.contact-section {
+    text-align: left;
+}
+
+.contact-button {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-button:hover {
+    background-color: #86a2ca;
+    /* Change background color on hover */
+}

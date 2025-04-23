@@ -1,0 +1,185 @@
+/* Form container */
+form {
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+h2 {
+    text-align: center;
+}
+
+  /* Form input fields */
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  /* Submit button */
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+
+
+  /**header and footer***/
+
+  #header{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: rgb(233, 233, 232);
+    box-shadow: 0 5px 15px rgb(232, 232, 232);
+    }
+
+    #navbar{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+    }
+
+    #navbar li{
+        padding: 20px;
+        list-style: none;
+    }
+
+    #navbar a{
+        text-decoration: none;
+        font-weight:bold ;
+        color: black;
+    }
+
+    #navbar a:hover{
+            color: #005bdb;
+    }
+
+    body{
+        margin:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    /* Styling for the hero section */
+    .hero {
+        height: 50vh; /* Set the hero section to cover the entire viewport height */
+        background-image: url(Images/hero_image.jpg); /* Replace with the path to your hero image */
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: #fff;
+    }
+
+    .hero::before {
+        content: ""; /* Create a pseudo-element */
+        position: absolute; /* Position the pseudo-element */
+        top: 1;
+        left: 0;
+        width: 100%; /* Cover the entire section */
+        height: 50%;
+        background-color: rgba(0, 0, 0, 0.4); /* Black color with 50% opacity */
+    }
+
+
+    .hero h1 {
+        position: relative;
+        font-size: 48px;
+        margin-bottom: 20px;
+    }
+
+
+    .hero p {
+        position: relative;
+        font-size: 24px;
+        margin-bottom: 40px;
+    }
+
+
+        /*DIv */
+    /* Footer styles */
+    .footer {
+        background-color: rgb(233, 233, 232);
+        color: #000000;
+        padding: 40px 250px;
+        display: flex;
+        justify-content: center;}
+
+
+.logo-section img {
+width: 150px;
+padding-right: 100px;
+}
+
+.footer-links {
+flex: 1;
+}
+
+.footer-links h3 {
+font-size: 18px;
+margin-bottom: 10px;
+}
+.footer-links    a:hover {
+color: #005bdb; 
+}
+
+
+
+
+.footer-links ul {
+list-style: none;
+padding: 0;
+}
+
+.footer-links ul li {
+margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+color: #000000;
+text-decoration: none;
+}
+
+.footer-col {
+flex: 1;
+padding: 0 20px;
+}
+
+.contact-section {
+text-align: left;
+}
+
+.contact-button {
+padding: 10px 20px;
+background-color: #fff;
+color: #333;
+border: none;
+border-radius: 5px;
+cursor: pointer; 
+transition: background-color 0.3s ease;     
+}
+
+.contact-button:hover {
+background-color: #86a2ca; /* Change background color on hover */
+}
+  

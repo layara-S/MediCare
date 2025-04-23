@@ -1,0 +1,138 @@
+#header{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: rgb(233, 233, 232);
+    }
+
+    #navbar{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+    }
+
+    #navbar li{
+        padding: 20px;
+        list-style: none;
+    }
+
+    #navbar a{
+        text-decoration: none;
+        font-weight:bold ;
+        color: black;
+    }
+
+    #navbar a:hover{
+            color: #005bdb;
+    }
+
+    body{
+        margin:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    /* Styling for the hero section */
+    .hero {
+        height: 50vh; /* Set the hero section to cover the entire viewport height */
+        background-image: url(Images/hero_image.jpg); /* Replace with the path to your hero image */
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: #fff;
+    }
+
+
+
+
+
+    
+
+        /*DIv */
+    /* Footer styles */
+    .footer {
+        background-color: rgb(233, 233, 232);
+        color: #000000;
+        padding: 40px 250px;
+        display: flex;
+        justify-content: center;}
+
+
+.logo-section img {
+width: 150px;
+padding-right: 100px;
+}
+
+.footer-links {
+flex: 1;
+}
+
+.footer-links h3 {
+font-size: 18px;
+margin-bottom: 10px;
+}
+.footer-links    a:hover {
+color: #005bdb; 
+}
+
+
+
+
+.footer-links ul {
+list-style: none;
+padding: 0;
+}
+
+.footer-links ul li {
+margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+color: #000000;
+text-decoration: none;
+}
+
+.footer-col {
+flex: 1;
+padding: 0 20px;
+}
+
+.contact-section {
+text-align: left;
+}
+
+.contact-button {
+padding: 10px 20px;
+background-color: #fff;
+color: #333;
+border: none;
+border-radius: 5px;
+cursor: pointer; 
+transition: background-color 0.3s ease;     
+}
+
+.contact-button:hover {
+background-color: #86a2ca; /* Change background color on hover */
+}
+
+
+input[type="number"] {
+width: 40px;
+text-align: center;
+border: 1px solid #ccc;
+padding: 5px;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+/* Hide the appearance of the spin buttons */
+-webkit-appearance: none;
+margin: 0; /* Optional: Remove any default margin */
+}
+
+    

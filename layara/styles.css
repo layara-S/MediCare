@@ -1,0 +1,531 @@
+#header{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: rgb(233, 233, 232);
+    box-shadow: 0 5px 15px rgb(232, 232, 232);
+    }
+
+    #navbar{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+    }
+
+    #navbar li{
+        padding: 20px;
+        list-style: none;
+    }
+
+    #navbar a{
+        text-decoration: none;
+        font-weight:bold ;
+        color: black;
+    }
+
+    #navbar a:hover{
+            color: #005bdb;
+    }
+
+    body{
+        margin:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    /* Styling for the hero section */
+    .hero {
+        height: 50vh; /* Set the hero section to cover the entire viewport height */
+        background-image: url(Images/hero_image.jpg); /* Replace with the path to your hero image */
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: #fff;
+    }
+
+    .hero::before {
+        content: ""; /* Create a pseudo-element */
+        position: absolute; /* Position the pseudo-element */
+        top: 1;
+        left: 0;
+        width: 100%; /* Cover the entire section */
+        height: 50%;
+        background-color: rgba(0, 0, 0, 0.4); /* Black color with 50% opacity */
+    }
+
+
+    .hero h1 {
+        position: relative;
+        font-size: 48px;
+        margin-bottom: 20px;
+    }
+
+
+    .hero p {
+        position: relative;
+        font-size: 24px;
+        margin-bottom: 40px;
+    }
+
+
+        /*DIv */
+    /* Footer styles */
+    .footer {
+        background-color: rgb(233, 233, 232);
+        color: #000000;
+        padding: 40px 250px;
+        display: flex;
+        justify-content: center;}
+
+
+.logo-section img {
+width: 150px;
+padding-right: 100px;
+}
+
+.footer-links {
+flex: 1;
+}
+
+.footer-links h3 {
+font-size: 18px;
+margin-bottom: 10px;
+}
+.footer-links    a:hover {
+color: #005bdb; 
+}
+
+
+
+
+.footer-links ul {
+list-style: none;
+padding: 0;
+}
+
+.footer-links ul li {
+margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+color: #000000;
+text-decoration: none;
+}
+
+.footer-col {
+flex: 1;
+padding: 0 20px;
+}
+
+.contact-section {
+text-align: left;
+}
+
+.contact-button {
+padding: 10px 20px;
+background-color: #fff;
+color: #333;
+border: none;
+border-radius: 5px;
+cursor: pointer; 
+transition: background-color 0.3s ease;     
+}
+
+.contact-button:hover {
+background-color: #86a2ca; /* Change background color on hover */
+}
+
+
+/************ About Us ************/
+
+.About-hero {
+height: 50vh; /* Set the hero section to cover the entire viewport height */
+background-image: url(Images/Skyscrapers.png); /* Image */
+background-size: cover;
+background-position: center;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+color: #fff;
+}
+
+.About-hero::before {
+content: ""; /* Create a pseudo-element */
+position: absolute; /* Position the pseudo-element */
+top: 1;
+left: 0;
+width: 100%; /* Cover the entire section */
+height: 50%;
+background-color: rgba(0, 0, 0, 0.4); /* Black color with 50% opacity */
+}
+
+
+.About-hero h1 {
+position: relative;
+font-size: 48px;
+margin-bottom: 20px;
+}
+
+
+.About-hero p {
+position: relative;
+font-size: 24px;
+margin-bottom: 40px;
+}
+
+.about-main{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+margin:20px 20px 20px 20px;
+padding : 20px 20px 20px 20px;
+}
+.about-left{
+width:50%;
+text-align:justify;
+}
+
+.map{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+margin:10px 10px 10px 10px;
+padding : 10px 10px 10px 10px;
+}
+.right-map iframe{
+margin-left:100px;
+}
+
+
+
+/*Login  Page*/ 
+
+
+
+body.loginpage{
+background-image: url(/Reusables/Images/medicine-medical-supplies-placed-with-doctor-tools-blue.jpg);
+background-position:center;
+background-size: cover;
+max-height: 50px; /* Maximum height */
+object-fit: cover; /* Scale the image to cover the entire container */
+}
+
+.form {
+position: relative;
+z-index: 1;
+background: #e5eceb;
+max-width: 300px;
+margin: 0 auto 100px;
+padding: 45px;
+text-align: center;
+box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.form button:hover,.form button:active,.form button:focus {
+background: #277c8d;
+color:#ffffff
+}
+
+button {
+background-color: #62c4d8;
+color: rgb(0, 0, 0);
+padding: 14px 18px;
+border: none;
+border-radius: 20px;
+margin: 8.5px 0;
+cursor: pointer;
+width: 100%;
+transition: background-color 0.3s, color 0.3s;
+}
+
+input[type=text], input[type=password] {
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+border: 1px solid #ccc;
+box-sizing: border-box;
+}
+
+.login label {
+display: block; 
+text-align: left; /* Align text to the left */
+margin-top: 10px; /* Optional: Add spacing below label */
+font-weight: bold; /* Optional: Make label text bold */
+}
+
+.login-addons p, button{
+font-weight: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+#texts{
+
+background-color:rgba(126,216,233,255); 
+background-color: #e2cbcb33; /* Semi-transparent white */
+padding: 20px;
+border-radius: 0px;
+backdrop-filter: blur(10px); /* Apply blur effect */
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); /* Add shadow for depth */
+text-align: center;
+
+}
+
+#register  a{
+  text-decoration: none;
+  color: black;
+}
+
+#register a:hover {
+background-color: #277c8d;
+color: #ffffff; 
+transition: background-color 0.3s, color 0.3s;
+}
+
+
+
+.login-addons p{
+font-weight: 14px;
+}
+
+#login-btext{
+color:#818181ff;
+
+}
+
+/******** Single Product Page ********/
+
+.product-hero{
+display:flex;
+flex-direction:row;
+}
+.hero-img{
+width:80%;
+border: 2px solid;
+width:92%;
+border-radius:10px;
+cursor:zoom-in;
+}
+.pimgs{
+display:flex;
+flex-direction:row;
+justify-content:center;
+}
+.pimg{
+width:30%;
+border: 2px solid;
+cursor:zoom-in;
+border-radius:10px;
+}
+.left-product{
+justify-content:center;
+margin-left:150px;
+padding:20px 20px 20px 20px;
+width:50%;
+}
+
+.right-product{
+width:50%;
+float:right;
+}
+input[type="number"] {
+width: 40px;
+text-align: center;
+border: 1px solid #ccc;
+padding: 5px;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+/* Hide the appearance of the spin buttons */
+-webkit-appearance: none;
+margin: 0; /* Optional: Remove any default margin */
+}
+
+.pname{
+font-size:35px;
+font-weight:800;
+}
+.price{
+color:red;
+font-size:25px;
+}
+.similar-products i{
+font-size:40px;
+margin-top:130px;
+}
+.minquan, .plusquan {
+border: none;
+background-color: #ddd;
+cursor: pointer;
+padding: 5px 10px;
+}
+.cart-button{
+border: none;
+margin-left:50px;
+background-color:#3dd0f5;
+color:black;
+padding:15px 15px 15px 15px;
+border-radius:20px;
+}
+.buy-button{
+border: none;
+margin-left:50px;
+background-color:#f25b36;
+color:black;
+padding:15px 15px 15px 15px;
+border-radius:20px;
+}
+.cart-button:hover, .buy-button:hover{
+box-shadow: 10px 10px 8px #888888;
+}
+.product-descrip{
+background-color:#dedede;
+padding:20px 20px 20px 20px;
+border-radius:20px;
+}
+
+.similar-products{
+display:flex;
+justify-content:center;
+
+}
+.similar{
+background-color:#bababa;
+width:90%;
+padding:10px 30px 30px 30px;
+border-radius:20px;
+}
+.simImg{
+width:30%;
+height:30%;
+border: 2px solid;
+border-radius:10px;
+margin:10px 10px 10px 10px;
+}
+
+
+/************ Terms and Conditions ************/
+
+.terms-hero {
+   
+    height: 50vh; 
+    background-size: cover;
+    background-image: url(Images/pills.jpg);
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    }  
+
+    
+    .terms-hero::before {
+    content: ""; /* Create a pseudo-element */
+    position: absolute; /* Position the pseudo-element */
+    top: 1;
+    left: 0;
+    width: 100%; /* Cover the entire section */
+    height: 50%;
+    background-color: rgba(0, 0, 0, 0.4); /* Black color with 50% opacity */
+    }
+    
+    
+    .terms-hero h1 {
+    position: relative;
+    font-size: 48px;
+    margin-bottom: 20px;
+    }
+    
+    
+    .terms-hero p {
+    position: relative;
+    font-size: 24px;
+    margin-bottom: 40px;
+    }
+    
+    .terms-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin:20px 20px 20px 20px;
+    padding : 20px 20px 20px 20px;
+    }
+    .terms-left{
+    width:50%;
+    text-align:justify;
+    }
+
+    /************ Privacy Policy ************/
+
+.privacy-hero {
+   
+    height: 50vh; 
+    background-size: cover;
+    background-image: url(Images/med.jpg);
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    }  
+
+    
+    .privacy-hero::before {
+    content: ""; /* Create a pseudo-element */
+    position: absolute; /* Position the pseudo-element */
+    top: 1;
+    left: 0;
+    width: 100%; /* Cover the entire section */
+    height: 50%;
+    background-color: rgba(0, 0, 0, 0.4); /* Black color with 50% opacity */
+    }
+    
+    
+    .privacy-hero h1 {
+    position: relative;
+    font-size: 48px;
+    margin-bottom: 20px;
+    }
+    
+    
+    .privacy-hero p {
+    position: relative;
+    font-size: 24px;
+    margin-bottom: 40px;
+    }
+    
+    .privacy-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin:20px 20px 20px 20px;
+    padding : 20px 20px 20px 20px;
+    }
+    .privacy-left{
+    width:50%;
+    text-align:justify;
+    }
+
+
+          
+
+
+
+
+
+
+
+

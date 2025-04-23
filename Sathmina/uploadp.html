@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="uploads.css">
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ <title>MediCare</title>
+</head>
+<body>
+<section id="header">
+   <a href="#"><img src="Images/logo.png" width="175" alt="pharmacy logo"></a>
+
+    <div >
+        <ul id="navbar">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#products">Shop</a></li>
+        <li><a href="#services">About Us</a></li>
+        <li><a href="#about">Contact Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li id="search"><input type="text" placeholder="Search Produtcs.." name="search"></li>
+        <li><a href="cart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></li> 
+        <li><a href="user.html"><i class="fa fa-user" aria-hidden="true"></i></a></li></nav></section>
+    </ul>
+
+</div>
+</section>
+<body>
+    <header>
+        <h1>Prescription Upload Portal</h1>
+        <p>You can conveniently submit your prescription for online medicine orders. Simply upload a scanned copy or take a photo directly from your mobile device to complete the process..</p>
+    </header>
+
+    <div class="main-content">
+        <section class="form-section">
+            <h2>Enter Your Details</h2>
+            <form action="#" method="post">
+                <label for="patientName">Patient Name:</label>
+                <input type="text" id="patientName" name="patientName" required><br><br>
+
+                <label for="patientAge">Age:</label>
+                <input type="number" id="patientAge" name="patientAge" required><br><br>
+
+                <label for="phoneNumber">Phone Number:</label>
+                <input type="tel" id="phoneNumber" name="phoneNumber" required><br><br>
+
+                <label for="prescriptionNumber">Prescription Number:</label>
+                <input type="text" id="prescriptionNumber" name="prescriptionNumber" required><br><br>
+
+                <label for="medicationType">Medication Type:</label>
+                <select id="medicationType" name="medicationType" required>
+                    <option value="tablet">Tablet</option>
+                    <option value="capsule">Capsule</option>
+                    <option value="syrup">Syrup</option>
+                </select><br><br>
+
+                <label for="specialNotes">Special Notes:</label><br>
+                <textarea id="specialNotes" name="specialNotes" rows="4"></textarea><br><br>
+
+                <button type="submit">Save Information</button>
+                <button type="button">Edit Information</button>
+            </form>
+        </section>
+
+        <form action="/imageupload.php" method="post">
+
+        <section class="upload-section">
+            <h2>Upload Your Prescription</h2>
+            <p>Drag and drop your prescription file here.</p>
+            <input type="file" name="imageUpload" id="imageUpload">
+            <button type="submit">Submit</button>
+
+            </form>
+        </section>
+    
+        
+    </div>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="logo-section">
+        <img src="Images/logo.png" width="150">
+    </div>
+    <div class="footer-links">
+        <h3>Quick Links</h3>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    <div class="footer-links">
+        <h3>Shopping</h3>
+        <ul>
+            <li><a href="#">Category 1</a></li>
+            <li><a href="#">Category 2</a></li>
+            <li><a href="#">Category 3</a></li>
+            <li><a href="#">Category 4</a></li>
+        </ul>
+    </div>
+    <div class="footer-col">
+        <div class="footer-section contact-section">
+            <h3>Contact Us</h3>
+            <p>123 Pharmacy Street, City</p>
+            <button class="contact-button">Contact</button>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html> 

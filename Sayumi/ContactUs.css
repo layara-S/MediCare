@@ -1,0 +1,263 @@
+/************ Contact Us ************/
+#header{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: rgb(233, 233, 232);
+    box-shadow: 0 5px 15px rgb(232, 232, 232);
+    }
+
+    #navbar{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    }
+
+    #navbar li{
+        padding: 20px;
+        list-style: none;
+    }
+
+    #navbar a{
+        text-decoration: none;
+        font-weight:bold ;
+        color: black;
+    }
+
+    #navbar a:hover{
+            color: #005bdb;
+    }
+
+    .About-hero {
+        height: 50vh; /* Set the hero section to cover the entire viewport height */
+        background-image: url(Images/ContactUs.jpg); /* Image */
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: #fff;
+    }
+
+    .About-hero::before {
+        content: ""; /* Create a pseudo-element */
+        position: absolute; /* Position the pseudo-element */
+        top: 1;
+        left: 0;
+        width: 100%; /* Cover the entire section */
+        height: 50%;
+        background-color: rgba(0, 0, 0, 0.4); /* Black color with 50% opacity */
+    }
+
+    .About-hero h1 {
+        position: relative;
+        font-size: 60px;
+        margin-bottom: 20px;
+    }
+
+    .About-hero p {
+        position: relative;
+        font-size: 24px;
+        margin-bottom: 40px;
+    }
+
+    .about-main{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin:20px 20px 20px 20px;
+        padding : 20px 20px 20px 20px;
+    }
+    .about-left{
+        width:50%;
+        text-align:justify;
+    }
+
+    .map{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin:10px 10px 10px 10px;
+        padding : 10px 10px 10px 10px;
+    }
+    .right-map iframe{
+        margin-left:100px;
+    }
+
+/*Contact US*/
+
+.map{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin:10px 10px 10px 10px;
+    padding : 10px 10px 10px 10px;
+}
+.right-map iframe{
+    margin-left:100px;
+}
+
+/* form */
+.label{
+    font-size: 18px;
+    /*font-family: cursive;
+    font-weight: 50;*/
+
+    /*font colour
+    font-style*/
+}
+
+#UserName{
+    padding-right: 500px;
+    padding-top: 10px;
+}
+
+.Name{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.FirstName{
+    font-size: 18px; 
+}
+
+#FirstName{
+    padding-top: 10px;
+    padding-right: 500px;
+    margin-right: 20px;
+}
+
+.LastName{
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+#LastName{
+    padding-top: 10px;
+    padding-right: 500px;
+    margin-right: 20px;
+}
+
+.details{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Email{
+    font-size: 18px;
+}
+#Email{
+    padding-top: 10px;
+    padding-right: 500px;
+    margin-right: 20px;
+}
+
+.Contact{
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+#Contact{
+    padding-top: 10px;
+    padding-right: 500px;
+    margin-right: 20px;
+}
+
+#Subject{
+    padding-right: 1210px;
+    padding-top: 10px;
+}
+
+#Message{
+    padding-right: 1210px;
+    padding-top: 10px;
+    padding-bottom: 200px;
+}
+
+#submit{
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 18px;
+    margin-right: 1120px;
+    margin-left: 10px;
+    background-color: gray;
+    color: black;
+    border-radius: 20px;
+}
+
+#submit:hover{
+    background-color: rgb(158, 185, 240);
+    color: rgb(4, 2, 39);
+}
+
+
+
+/* Footer styles */
+.footer {
+    background-color: rgb(233, 233, 232);
+    color: #000000;
+    padding: 40px 250px;
+    display: flex;
+    justify-content: center;}
+
+.logo-section img {
+width: 150px;
+padding-right: 100px;
+}
+
+.footer-links {
+flex: 1;
+}
+
+.footer-links h3 {
+font-size: 18px;
+margin-bottom: 10px;
+}
+.footer-links    a:hover {
+color: #005bdb; 
+}
+
+.footer-links ul {
+list-style: none;
+padding: 0;
+}
+
+.footer-links ul li {
+margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+color: #000000;
+text-decoration: none;
+}
+
+.footer-col {
+flex: 1;
+padding: 0 20px;
+}
+
+.contact-section {
+text-align: left;
+}
+
+.contact-button {
+padding: 10px 20px;
+background-color: #fff;
+color: #333;
+border: none;
+border-radius: 5px;
+cursor: pointer; 
+transition: background-color 0.3s ease;     
+}
+
+.contact-button:hover {
+background-color: #86a2ca; /* Change background color on hover */
+}
