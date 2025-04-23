@@ -11,6 +11,8 @@ MediCare is a user-friendly web platform designed to simplify healthcare access.
 ## Features Implemented by Layara
 This project’s part, under the "Layara" folder, includes the implementation of the **"Customer Buying Medicine Using the Upload Prescription Feature"**. This is a key feature of the MediCare web application, allowing customers to purchase medications based on their uploaded prescriptions.
 
+Static pages : Privacy Policy page, Terms and Conditions page
+
 ### Key Functionalities:
 - **Upload Prescription**: Customers can upload their prescription files to the system.
 - **Prescription Verification**: The uploaded prescriptions are verified before the customer can proceed with buying the medication.
